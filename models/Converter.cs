@@ -9,8 +9,8 @@ namespace Serialization_on_._NET.models
     {
         public static void Run()
         {
-            Serialize();
-            //DeSerialize();
+            //Serialize();
+            DeSerialize();
             //Anonymouse();
         }
 
@@ -26,8 +26,28 @@ namespace Serialization_on_._NET.models
                 Url = "api/queries" + id.ToString()
             };
 
-             string serialize = JsonConvert.SerializeObject(myQuery);
-             System.Console.WriteLine(serialize);
+            string serialize = JsonConvert.SerializeObject(myQuery);
+            System.Console.WriteLine(serialize);
+        }
+
+        public static void DeSerialize()
+        {
+            string JsonObject = @"
+                                    {
+                                    ""Text"" : ""Some DeSerialized model"",
+                                    ""TimesTamp"" : ""16:26:22.49"",
+                                    ""Url"" : ""/api/queries/22"" 
+                                    }
+                                    ";
+
+            QueryObject Query = JsonConvert.DeserializeObject<QueryObject>(JsonObject);
+            
+
+          /*   QueryObject OtherQuery  = JsonConvert.DeserializeObject(@"{""key"" : ""value""}") as QueryObject;
+            string txt = OtherQuery == null ? "Yes": "No";
+            System.Console.WriteLine($"is other query null?: {txt}"); */
+
+             System.Console.WriteLine(Query.Text);
         }
     }
 }
