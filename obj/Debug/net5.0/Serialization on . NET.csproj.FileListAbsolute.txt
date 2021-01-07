@@ -1,0 +1,16 @@
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\bin\Debug\net5.0\Serialization on . NET.exe
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\bin\Debug\net5.0\Serialization on . NET.deps.json
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\bin\Debug\net5.0\Serialization on . NET.runtimeconfig.json
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\bin\Debug\net5.0\Serialization on . NET.runtimeconfig.dev.json
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\bin\Debug\net5.0\Serialization on . NET.dll
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\bin\Debug\net5.0\ref\Serialization on . NET.dll
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\bin\Debug\net5.0\Serialization on . NET.pdb
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.csprojAssemblyReference.cache
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.AssemblyInfoInputs.cache
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.AssemblyInfo.cs
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.csproj.CoreCompileInputs.cache
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.dll
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\ref\Serialization on . NET.dll
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.pdb
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.genruntimeconfig.cache

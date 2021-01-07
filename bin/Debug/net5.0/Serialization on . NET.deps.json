@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Serialization on . NET/1.0.0": {
+        "runtime": {
+          "Serialization on . NET.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Serialization on . NET/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
