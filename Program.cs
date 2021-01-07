@@ -7,7 +7,11 @@ namespace Serialization_on_._NET
     {
         static void Main(string[] args)
         {
-            Converter clss = new Converter();
+            Converter clss = new Converter()
+            {
+
+
+            }
         }
     }
 }

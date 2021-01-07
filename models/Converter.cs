@@ -1,5 +1,6 @@
 using System;
-using System.Data;
+using  System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Serialization_on_._NET.models
 {
@@ -16,10 +17,15 @@ namespace Serialization_on_._NET.models
         {
             int id = new Random().Next(0, 100);
 
-            var  myQuery = new QueryObject
+            var myQuery = new QueryObject
             {
+                Id = id,
+                Text = "Some bits here",
+                TimesTamp = DateTime.Now.TimeOfDay,
+                Url = "api/queries" + id.ToString()
+            };
 
-            }
+            string serialize = JsonConvert.SerializeObject(myQuery)
         }
     }
 }
