@@ -1,10 +1,11 @@
 using System;
-using  System.Text.Json;
+using System.Text.Json;
+using Newtonsoft.Json;
 using System.Text.Json.Serialization;
 
 namespace Serialization_on_._NET.models
 {
-    public class Converter
+    public static class Converter
     {
         public static void Run()
         {
@@ -25,7 +26,8 @@ namespace Serialization_on_._NET.models
                 Url = "api/queries" + id.ToString()
             };
 
-            string serialize = JsonConvert.SerializeObject(myQuery)
+             string serialize = JsonConvert.SerializeObject(myQuery);
+             System.Console.WriteLine(serialize);
         }
     }
 }

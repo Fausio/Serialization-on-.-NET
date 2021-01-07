@@ -14,3 +14,5 @@ C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debu
 C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\ref\Serialization on . NET.dll
 C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.pdb
 C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.genruntimeconfig.cache
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\Serialization on . NET\obj\Debug\net5.0\Serialization on . NET.csproj.CopyComplete

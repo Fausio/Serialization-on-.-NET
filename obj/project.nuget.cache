@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MjwCqw9lfMx7/1ST1Dy9GvwplYnYDxux71Z39mv5MCBgN6Ka5gFsQieuUxWZpwPmKzpmWGqYNEJhvPn6lbm2Tg==",
+  "dgSpecHash": "2eqDoThw7LU1JcnPc0/w4VZBTvBG+GwkDQHWmPn4S7urcHSz306Xr6f1VbjULxwjkjJlsO2cHEJCn94UU/8l3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fáusio\\OneDrive\\Documents\\Estudos\\.NET\\Serialization on . NET\\Serialization on . NET.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Fáusio\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
