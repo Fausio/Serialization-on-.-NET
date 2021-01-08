@@ -11,7 +11,8 @@ namespace Serialization_on_._NET.models
         {
             //Serialize();
             //DeSerialize();
-            DeSerializeAnonymousType();
+            //DeSerializeAnonymousType();
+            ParseLinqToJson();
         }
 
         public static void Serialize()
@@ -68,18 +69,23 @@ namespace Serialization_on_._NET.models
 
         public static void ParseLinqToJson()
         {
-            string JObject = @"
+            string jobjct = @"
                                     {
                                     ""Name"" : ""Fáusio"",
                                     ""Age"" : ""16"",
                                     ""BI"" : ""1547846F5A"",
                                     ""Brothers"" :[
                                                     ""Fernando"",  
-                                                    ""Etelvinan""
+                                                    ""Etelvinan"",
                                                     ""Jorge""
                                                   ]
                                      }
                                     ";
+
+            JObject obj = JObject.Parse(jobjct);
+
+            System.Console.WriteLine(obj["Brothers"].GetType());
+             System.Console.WriteLine(obj["Brothers"]);
 
         }
     }
