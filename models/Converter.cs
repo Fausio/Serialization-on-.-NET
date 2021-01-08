@@ -1,7 +1,7 @@
 using System;
 using System.Text.Json;
 using Newtonsoft.Json;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json.Linq;
 
 namespace Serialization_on_._NET.models
 {
@@ -11,7 +11,7 @@ namespace Serialization_on_._NET.models
         {
             //Serialize();
             //DeSerialize();
-             DeSerializeAnonymousType();
+            DeSerializeAnonymousType();
         }
 
         public static void Serialize()
@@ -41,13 +41,13 @@ namespace Serialization_on_._NET.models
                                     ";
 
             QueryObject Query = JsonConvert.DeserializeObject<QueryObject>(JsonObject);
-            
 
-          /*   QueryObject OtherQuery  = JsonConvert.DeserializeObject(@"{""key"" : ""value""}") as QueryObject;
-            string txt = OtherQuery == null ? "Yes": "No";
-            System.Console.WriteLine($"is other query null?: {txt}"); */
 
-             System.Console.WriteLine(Query.Text);
+            /*   QueryObject OtherQuery  = JsonConvert.DeserializeObject(@"{""key"" : ""value""}") as QueryObject;
+              string txt = OtherQuery == null ? "Yes": "No";
+              System.Console.WriteLine($"is other query null?: {txt}"); */
+
+            System.Console.WriteLine(Query.Text);
         }
 
 
@@ -61,9 +61,26 @@ namespace Serialization_on_._NET.models
                                     }
                                     ";
 
-            dynamic Query = JsonConvert.DeserializeObject(JsonObject); 
+            dynamic Query = JsonConvert.DeserializeObject(JsonObject);
 
-             System.Console.WriteLine(Query.Text);
+            System.Console.WriteLine(Query.Text);
+        }
+
+        public static void ParseLinqToJson()
+        {
+            string JObject = @"
+                                    {
+                                    ""Name"" : ""Fáusio"",
+                                    ""Age"" : ""16"",
+                                    ""BI"" : ""1547846F5A"",
+                                    ""Brothers"" :[
+                                                    ""Fernando"",  
+                                                    ""Etelvinan""
+                                                    ""Jorge""
+                                                  ]
+                                     }
+                                    ";
+
         }
     }
 }
