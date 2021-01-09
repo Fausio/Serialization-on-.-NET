@@ -12,7 +12,8 @@ namespace Serialization_on_._NET.models
             //Serialize();
             //DeSerialize();
             //DeSerializeAnonymousType();
-            ParseLinqToJson();
+            // ParseLinqToJson();
+            ParseLinqToJsonCreation();
         }
 
         public static void Serialize()
@@ -85,8 +86,30 @@ namespace Serialization_on_._NET.models
             JObject obj = JObject.Parse(jobjct);
 
             System.Console.WriteLine(obj["Brothers"].GetType());
-             System.Console.WriteLine(obj["Brothers"]);
+            System.Console.WriteLine(obj["Brothers"]);
 
+        }
+
+        public static void ParseLinqToJsonCreation()
+        {
+            JToken token = new JObject
+            {
+                new JProperty("Name","Fáusio"),
+                new JProperty("Brothers", new JArray("Fernando","Etelvinan","Jorge")),
+                new JProperty("NestedObject", new JObject
+                    
+                    {
+                        new JProperty("Name","other one"),
+                        new JProperty("NestedObject",657)
+                    })
+            };
+
+             
+          //  System.Console.WriteLine(token.ToString());
+            foreach (var item in token)
+            {
+                System.Console.WriteLine(item.ToString());
+            }
         }
     }
 }
